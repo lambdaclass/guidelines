@@ -1,2 +1,2 @@
-# guidelines
-Design and coding standarts for lambdaclass
+# Guidelines
+Design and coding standards for LambdaClass
