@@ -23,3 +23,4 @@ This will be quick and dirty list for now.
 * Support the most recent Erlang version
 * When building libraries, try to make them both easily usable from
   the shell and easily configurable via application evnironment
+* Indent with two spaces.
