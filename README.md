@@ -24,3 +24,4 @@ This will be quick and dirty list for now.
 * When building libraries, try to make them both easily usable from
   the shell and easily configurable via application evnironment
 * Indent with two spaces.
+* Avoid using header files (.hrl) [TODO ELABORATE]
