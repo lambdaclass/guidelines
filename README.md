@@ -28,4 +28,5 @@ This will be quick and dirty list for now.
 * Avoid using header files (.hrl) [TODO ELABORATE]
 * Supervised processes provide guarantees in their initialization phase, not a best effort. [If you expect failure to happen on an external service, do not make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
 * Try to avoid `timer:sleep` on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option.
+* Prefer maps to records.
 
