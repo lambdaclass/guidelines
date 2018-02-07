@@ -10,6 +10,7 @@ This will be quick and dirty list for now.
 * Write tests
 * Favor integration tests over unit tests, but do write unit tests
   when the functions merit them
+* Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
 
 ## Open source projects
 
@@ -25,3 +26,6 @@ This will be quick and dirty list for now.
   the shell and easily configurable via application evnironment
 * Indent with two spaces.
 * Avoid using header files (.hrl) [TODO ELABORATE]
+* Supervised processes provide guarantees in their initialization phase, not a best effort. [If you expect failure to happen on an external service, do not make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
+* Try to avoid `timer:sleep` on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option.
+
