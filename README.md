@@ -10,7 +10,15 @@ This will be quick and dirty list for now.
 * Write tests
 * Favor integration tests over unit tests, but do write unit tests
   when the functions merit them
+* Do not write tests, at least until you have the problem solved,
+  you may lost time writing test for a solution that don't resolve
+  the problem.
+* Early optimization is the root of all evil. First resolve the problem,
+  the only if, and only if is needed optimize the solution.
 * Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
+* Write for humans: Coding for computers is easy, but writing
+  code that is understandable by other person in an art.
+* The less code you have the better. Deleted code is debugged code.
 
 ## Open source projects
 
