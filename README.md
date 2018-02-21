@@ -15,7 +15,9 @@ This will be quick and dirty list for now.
 ## Open source projects
 
 * Use MIT license
+* Fill the `description` field at the top of the repo page
 * Write a decent README
+* A good readme starts with a succint description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
 * Use continuous integration, most likely travis.org
 
 ## Erlang projects
