@@ -5,7 +5,7 @@ This will be quick and dirty list for now.
 
 ## Generalities
 
-* make is the build tool
+* make is the build tool, please read [this](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/)
 * postgresql is the default database
 * Write tests
 * Favor integration tests over unit tests, but do write unit tests
