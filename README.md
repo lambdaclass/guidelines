@@ -13,6 +13,7 @@ This will be quick and dirty list for now.
 * Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
 * Code and document in english, unless you have a very specific reason no to.
 * Use meaningful, readable names for variables, functions and files. Don't try to save characters.
+* Follow the [Zen of Python](https://www.python.org/dev/peps/pep-0020/), regardless of the language you are using at the moment. English also counts as a language.
 * Use git and commit often, even on one-person projects.
 
 ## Open source projects
