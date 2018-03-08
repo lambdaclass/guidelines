@@ -11,6 +11,8 @@ This will be quick and dirty list for now.
 * Favor integration tests over unit tests, but do write unit tests
   when the functions merit them
 * Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
+* Code and document in english, unless you have a very specific reason no to.
+* Use meaningful, readable names for variables, functions and files. Don't try to save characters.
 
 ## Open source projects
 
