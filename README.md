@@ -5,11 +5,11 @@ This will be quick and dirty list for now.
 
 ## Generalities
 
-* make is the build tool, please read [this](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/)
-* postgresql is the default database
-* Write tests
+* [make is the build tool](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#71e8). Consider [these notes](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/).
+* [Postgresql is the default database](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#e398)
+* Write tests.
 * Favor integration tests over unit tests, but do write unit tests
-  when the functions merit them
+  when the functions merit them.
 * Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
 * Code and document in english, unless you have a very specific reason no to.
 * Use meaningful, readable names for variables, functions and files. Don't try to save characters.
