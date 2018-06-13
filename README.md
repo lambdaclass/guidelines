@@ -15,6 +15,8 @@ This will be quick and dirty list for now.
 * Use meaningful, readable names for variables, functions and files. Don't try to save characters.
 * Follow the [Zen of Python](https://www.python.org/dev/peps/pep-0020/), regardless of the language you are using at the moment. English also counts as a language.
 * Use git and commit often, even on one-person projects.
+* Documentation is a sign of the quality of an API. It's easier to write it when the design is right.
+* Avoid the use of wrappers.
 
 ## Open source projects
 
@@ -23,6 +25,9 @@ This will be quick and dirty list for now.
 * Write a decent README
 * A good readme starts with a succint description (one or two sentences) and, when possible, a very short and illustrative example use. The rest of the details go after this header.
 * Use continuous integration, most likely travis.org
+* Don't introduce prematurely dependencies. You must evaluate your requirements, maintenance and integration costs first.
+* Aim for simplicity, not performance. The latter is a by-product of the first.
+* Make a good balance of features vs maintenance. Maintenance details usually matter more than adding a lot of features.
 
 ## Erlang projects
 
