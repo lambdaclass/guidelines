@@ -15,7 +15,7 @@ This will be quick and dirty list for now.
 * Use meaningful, readable names for variables, functions and files. Don't try to save characters.
 * Follow the [Zen of Python](https://www.python.org/dev/peps/pep-0020/), regardless of the language you are using at the moment. English also counts as a language.
 * Use git and commit often, even on one-person projects.
-* Documentation is a sign of the quality of an API. It's easier to write it when the design is right.
+* Documentation proves your API: complexities, inconsistencies and naming issues tend to become apparent only when you attempt to document your API.
 * Avoid the use of wrappers.
 
 ## Open source projects
@@ -36,7 +36,7 @@ This will be quick and dirty list for now.
 * When building libraries, try to make them both easily usable from
   the shell and easily configurable via application environment.
 * Indent with two spaces.
-* Avoid using header files (.hrl) [TODO ELABORATE].
+* Avoid using header files (.hrl) [Explanation.](https://github.com/inaka/erlang_guidelines#header-files).
 * Supervised processes provide guarantees in their initialization phase, not a best effort. [If you expect failure to happen on an external service, do not make its presence a guarantee of your system](https://ferd.ca/it-s-about-the-guarantees.html).
 * Try to avoid `timer:sleep` on tests, [ktn_task:wait_for_success](https://github.com/lambdaclass/erlang-katana/blob/master/src/ktn_task.erl#L28) can be a better option. More on this [here](https://medium.com/erlang-battleground/the-missing-testing-tip-628686ebbbda).
 * Prefer maps to records.
