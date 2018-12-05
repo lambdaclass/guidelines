@@ -10,7 +10,7 @@ This will be quick and dirty list for now.
 * Write tests.
 * Favor integration tests over unit tests, but do write unit tests
   when the functions merit them.
-* Do not write tests before you have solved the problem, you may waste time writing tests the wrong implementation.
+* Do not write tests before you have solved the problem, you may waste time writing tests for the wrong implementation.
 * Start with [the simplest thing that could possibly work](http://www.artima.com/intv/simplest3.html).
 * Write for humans: coding for computers is easy, but writing
   code that is understandable by other person in an art.
